@@ -7,7 +7,7 @@ lead with procastination and stuff
 1. [contests](#contests)
 
 ## Contests
-1. Clone the repository:
+1. dumb:
    ```C++
    #include<bits/stdc++.h>
    using namespace std;

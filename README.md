@@ -4,9 +4,9 @@ My shitty CP journey
 lead with procastination and stuff
 
 ## Table of Contents
-1. [contests](#installation)
+1. [contests](#contests)
 
-## Installation
+## Contests
 1. Clone the repository:
    ```C++
    #include<bits/stdc++.h>

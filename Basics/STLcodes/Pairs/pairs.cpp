@@ -1,6 +1,3 @@
-#STL Pairs
-```C++
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -15,7 +12,7 @@ bool cmp ( const pair<int,int> &p1, const pair<int, int> &p2 )
 int main(){
     /// Declare a pair of integers
     pair<int,int> p;
-
+	p = {1,2};//this is also correct 
     p = make_pair ( 2, 3 );
 	cout << p.first << " " << p.second << endl; /// 2 3
 

@@ -7,7 +7,7 @@ int main(){
     for(auto &u: coins)cin >> u;
     sort(coins.begin(), coins.end());
     vector<vector<long long int>> dp(x+1,vector<long long int>(n,0));
-    for(int i = 0; i<n; i++)if(coins[i]<=x)dp[coins[i]][i]=1;
+    for(int i = 0; i<n; i++)if(coins[i]<=x)dp[coins[i]][i]=1; 
     for(int i = 1; i<=x;i++){
         for(int j = 0;j<n;j++){
             for(int k = n-1; k>=0; k--){
